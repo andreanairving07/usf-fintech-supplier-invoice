@@ -31,6 +31,7 @@ README.md            # this file
 AI_USAGE.md          # prompts and verification record
 requirements.txt     # installed Streamlit version
 .gitignore           # excludes .venv, caches, and local-only files
+.streamlit/config.toml  # Streamlit theme (plum and white)
 ```
 
 ## Setup

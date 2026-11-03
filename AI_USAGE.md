@@ -158,6 +158,16 @@ which does not parse Markdown.
 The unit tests did not catch it because they only cover `logic.py`, not
 the screen.
 
+### Screen styling
+I asked Claude Code to add a plum theme in `.streamlit/config.toml` and
+polish `app.py` with bordered cards, a primary Check invoice button, a
+pending count metric, a How It Works expander, a subtitle with my name,
+wide layout and title-case headings. I used Claude chat for design
+suggestions and color choices. `logic.py` and the tests were not changed.
+After the changes I rechecked the normal, duplicate, different-supplier
+and invalid cases in the browser, reran the tests (18 OK), and retook
+`normal.png` and `failure.png`.
+
 ### Prompt 5 — Prepare a reproducible submission
 > Write README.md with my name, purpose, exact setup/test/run commands,
 > normal and failure examples, and limits. Record my prompts, generated
